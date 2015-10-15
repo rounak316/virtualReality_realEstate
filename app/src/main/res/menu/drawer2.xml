@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ndroid="http://schemas.android.com/apk/res-auto">
+
+
+
+    <group   android:checkableBehavior="single" android:id="@+id/grp2">
+<item
+    android:id="@+id/pb" android:visible="false"
+    android:icon="@drawable/icn1" android:title="Project Brief" />
+    <item         android:id="@+id/fe" android:visible="false"
+        android:title="Features" android:icon="@drawable/icn2" />
+    <item android:visible="false"
+        android:id="@+id/fp"
+        android:title="Floor Plans" android:icon="@drawable/icn3" />
+                <item android:id="@+id/glp_new" android:visible="false"
+                    android:title="Graphic Location Map" android:icon="@drawable/glo" />
+                <item android:id="@+id/mpl" android:visible="false"
+                    android:title="Master Layout Plan" android:icon="@drawable/icn5" />
+                <item android:id="@+id/cu" android:visible="false"
+                    android:title="Construction Update" android:icon="@drawable/icn6" />
+        <item android:id="@+id/glp" android:visible="false"
+            android:title="Google Map" android:icon="@drawable/icn4" />
+
+
+
+</group>
+
+
+    <group   android:checkableBehavior="single" android:id="@+id/grp1">
+        <item  android:id="@+id/contact" android:title="Contact Us" android:icon="@drawable/icn7" android:checkable="false" />
+        <item android:id="@+id/about" android:title="About Us"  android:icon="@drawable/icn8"  android:checkable="false" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group   android:checkableBehavior="single" android:id="@+id/grp1">
+
+        <item android:title="Home" >
+            <menu>
+<item android:id="@+id/spotlight" android:title="Spotlight" android:checkable="true" android:icon="@drawable/spotlight" />
+    <item android:id="@+id/projects" android:title="Projects" android:icon="@drawable/project"  android:checkable="true" />
+    <item android:id="@+id/events" android:title="Events" android:icon="@drawable/event" android:checkable="true" />
+            </menu>
+        </item>
+</group>
+
+    <item  android:id="@+id/contact" android:title="Contact Us" android:icon="@drawable/icn7" android:checkable="false" />
+    <item android:id="@+id/about" android:title="About Us"  android:icon="@drawable/icn8"  android:checkable="false" />
+
+</menu>

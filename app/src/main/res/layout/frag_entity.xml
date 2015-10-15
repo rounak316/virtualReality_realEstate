@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgbg"
+
+
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp">
+
+        <net.grobas.view.MovingImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/image"
+            app:miv_load_on_create="true"
+            app:miv_max_relative_size="3"
+            app:miv_min_relative_offset="0.2"
+            android:id="@+id/iv"
+
+            app:miv_start_delay="500"
+            app:miv_repetitions="-1"
+            app:miv_speed="100" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/myFAB"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="12dp"
+
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/play"
+            app:elevation="4dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="#fe9004"
+        android:text="IVORY WfdsfdsOOD"
+
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/primary_text"
+        android:text="IVORY WOOD"
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+
+
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="#616161"
+        android:text="IVORY WOOD"
+
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+
+        android:background="#c2c2cd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <LinearLayout
+
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:id="@+id/VP"
+
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="#303030"
+                android:gravity="center"
+                android:text="MORE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/VR"
+
+            android:layout_gravity="center"
+
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="#fe9004"
+                android:gravity="center"
+                android:text="VIRTUAL TOUR"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

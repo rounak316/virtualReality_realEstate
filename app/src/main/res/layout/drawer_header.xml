@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:background="@drawable/das"
+    android:layout_height="180dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    >
+
+    <myapplication.prak.vrrealstate.layouts.CircularImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="100dp"
+android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+
+
+        android:id="@+id/header"
+        android:scaleType="centerInside"
+
+        android:layout_height="100dp">
+
+    </myapplication.prak.vrrealstate.layouts.CircularImageView>
+
+</RelativeLayout>

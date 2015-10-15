@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+<myapplication.prak.vrrealstate.layouts.CircularImageView
+    android:layout_marginTop="18dp"
+    android:layout_width="125dp"
+
+    android:layout_gravity="center"
+android:id="@+id/logo"
+    android:layout_height="125dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="IVORY WOOD"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:gravity="center"
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpp"
+
+        android:layout_height="180dp"
+
+        android:minHeight="5dp"
+
+
+        android:layout_width="match_parent"
+        >
+
+
+
+
+    </android.support.v4.view.ViewPager>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="5dp" android:background="@color/primary"/>
+
+
+
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></WebView>
+
+</LinearLayout>
+    </ScrollView>

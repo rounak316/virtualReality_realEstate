@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:padding="1dp"
+    android:layout_height="wrap_content">
+
+    <myapplication.prak.vrrealstate.layouts.AspectRatioImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/image"
+        android:background="#4a4a4a"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:id="@+id/iv2"
+        android:scaleType="fitXY"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#616161"
+        android:text="IVORY"
+        android:textStyle="bold"
+        android:id="@+id/caption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginRight="12dp"
+
+        android:layout_marginLeft="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/primary_dark"
+      android:text="fdsfds"
+        android:textStyle="italic"
+        android:id="@+id/project_brief2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+

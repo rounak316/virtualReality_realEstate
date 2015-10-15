@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgbg"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bgbg"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+<ImageView
+
+
+    android:layout_width="match_parent"
+ android:id="@+id/iv"
+    android:scaleType="fitXY"
+
+    android:layout_height="300dp" />
+
+
+
+    <TextView
+        android:gravity="center|left"
+        android:lines="2"
+        android:background="@drawable/bgbg2"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#4a4a4a"
+        android:text="IVORY WfdsfdsOOD"
+        android:textStyle="bold"
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="22sp"
+        android:paddingLeft="15dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"
+
+        android:textColor="@color/primary_dark"
+        android:text="IVORY WOOD"
+        android:textStyle="italic"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingLeft="15dp"
+
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#616161"
+        android:text="IVORY WOOD"
+
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+     
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:clickable="true"
+android:layout_marginTop="30dp"
+            android:id="@+id/gal"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginRight="10dp"
+android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginLeft="7dp"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:text="VIEW GALLERY"
+
+android:background="@drawable/bgbgcurve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/VR"
+android:visibility="gone"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:tint="@color/primary_dark"
+                android:src="@drawable/send"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginRight="10dp"
+
+                android:gravity="center|left"
+                android:layout_marginLeft="7dp"
+                android:textSize="12sp"
+                android:textColor="@color/primary_dark"
+                android:text="VIEW VR"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+
+    android:layout_weight="2.5"
+    android:layout_width="match_parent"
+      android:layout_height="0dp">
+
+    <android.support.v4.view.ViewPager
+
+        android:background="#ffffff"
+        android:layout_below="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp"
+        />
+
+    <LinearLayout
+
+android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:id="@+id/tabindi"
+        android:gravity="center"
+
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="16dp">
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+android:layout_gravity="center"
+        android:gravity="center"
+     android:layout_weight="1.5"
+        android:layout_below="@id/vp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+<TextView
+    android:textSize="20sp"
+    android:textColor="#000000"
+    android:gravity="center"
+    android:text="Getting Started"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20sp"
+            android:background="#000000"
+            android:gravity="center"
+            android:text="Getting Started"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <View
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textColor="#616161"
+            android:gravity="center"
+            android:text="Please select a profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:id="@+id/guest"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+android:background="@drawable/btn"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="20dp"
+android:tint="#ffffff"
+                android:layout_width="30dp"
+                android:src="@drawable/account"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_marginLeft="50dp"
+            android:padding="10dp"
+                android:textSize="21sp"
+                android:textColor="#ffffff"
+                android:gravity="center|left"
+                android:text="Guest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/homeowner"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnn"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:tint="#ffffff"
+                android:layout_width="30dp"
+                android:src="@drawable/key"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:padding="10dp"
+                android:textSize="21sp"
+                android:textColor="#ffffff"
+                android:gravity="center|left"
+                android:layout_marginLeft="50dp"
+                android:text="Homeowner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
